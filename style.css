@@ -162,7 +162,6 @@ a {
   border: none;
   color: white;
   font-size: 20px;
-  
 }
 .project-1 p,
 .project-2 p,
@@ -173,7 +172,6 @@ a {
   line-height: 42px;
   text-align: left;
   margin: 2rem 0;
-  
 }
 .project-1 h2,
 .project-2 h2,
@@ -194,5 +192,74 @@ a {
   width: 300px;
   height: 2px;
   margin: 0 auto;
-  
+}
+
+/* technologies */
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 20rem 10rem 7rem;
+}
+.technologies h2 {
+  font-size: 64px;
+  line-height: 96px;
+}
+.stageBars {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 9rem 17rem;
+}
+
+.languageStage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 4rem;
+}
+.stage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.stage h2 {
+  font-size: 36px;
+}
+.stage p {
+  font-size: 25px;
+}
+.stagePosition {
+  width: 100%;
+  height: 32px;
+  margin-top: 2rem;
+  background: #162950;
+  border-radius: 83px;
+}
+.stagePositiongrad {
+  display: flex;
+  position: absolute;
+  left: 0rem;
+  top: 7.9rem;
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+}
+.advance {
+  width: 70%;
+  height: 32px;
+}
+.regular {
+  width: 50%;
+  height: 32px;
+}
+.beginner {
+  width: 25%;
+  height: 32px;
 }
